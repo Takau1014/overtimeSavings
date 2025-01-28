@@ -64,7 +64,7 @@ $minWorkHours = $businessDays * 8
 $minWorkTimeFormatted = "{0}:{1:00}" -f $minWorkHours, 0
 
 # “–“ú“ú•t‚ğæ“¾‚µ•¶š—ñ‚É•ÏŠ·
-$todayDate = (Get-Date).ToString("yyyy/MM/dd")
+$todayDate = (Get-Date).ToString("yyyy/M/dd")
 
 # ‰Ò“­ŠÔŒ©‚İ‰Šú‰»
 $totalWorkMinutes = New-TimeSpan -Hours 0 -Minutes 0
